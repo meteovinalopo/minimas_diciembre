@@ -415,6 +415,6 @@ var attribution = document.getElementsByClassName('ol-attribution')[0];
 var attributionList = attribution.getElementsByTagName('ul')[0];
 var firstLayerAttribution = attributionList.getElementsByTagName('li')[0];
 var qgis2webAttribution = document.createElement('li');
-qgis2webAttribution.innerHTML = '<a href="www.mediamet.es">Autoría César Donado-Mazarrón    METEOVINALOPÓ   VINALOFRED</a>';
+qgis2webAttribution.innerHTML = '<a href="https://www.mediamet.es">Autoría César Donado-Mazarrón    METEOVINALOPÓ   VINALOFRED</a>';
 attributionList.insertBefore(qgis2webAttribution, firstLayerAttribution);
 
